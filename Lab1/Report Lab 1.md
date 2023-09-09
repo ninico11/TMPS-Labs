@@ -1,5 +1,5 @@
 # Topic: *SOLID Principles*
-## Author: *Spatari Stanislav*
+## Author: *Rotaru Ion*
 ------
 ## Objectives:
 &ensp; &ensp; __1. Study and understand the SOLID Principles.__
