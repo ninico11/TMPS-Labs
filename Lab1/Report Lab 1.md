@@ -20,8 +20,8 @@
 
 &ensp; &ensp; __4. Respect SOLID Principles in your project.__
 
-##Code examples of SOLID Principles:
-*Single Responsibility Principle (SRP):
+## Code examples of SOLID Principles:
+* Single Responsibility Principle (SRP):
 Class Driver and Class Assistant are responsible only for their own work. For example Assistant get calls and orders from customers, Driver transport order to the customer. 
 ```cpp
 class Driver : public Personel {
@@ -95,7 +95,7 @@ public:
 }
 };
 ```
-*Open/Closed Principle (OCP) and Liskov Substitution Principle (LSP):
+* Open/Closed Principle (OCP) and Liskov Substitution Principle (LSP):
 Class Customer is open for extension because you can to add for example another type of customer, if you change something in Customer class you need to change his child classes. And LSP is presented in fact that Customer class can be easely substituted with OrdinaryCustomer class.
 ```cpp
 class Customer {
@@ -127,7 +127,7 @@ public:
     }
 };
 ```
-*Interface Segregation Principle (ISP):
+* Interface Segregation Principle (ISP):
 OrdinaryCustomer, Driver, and Assistant are concrete classes that implement the interfaces. None of these classes are forced to implement methods they do not need. For example, OrdinaryCustomer only implements methods related to customers, and Driver and Assistant implement methods related to personnel and orders, respectively.
 ```cpp
 class OrdinaryCustomer : public Customer {
@@ -226,7 +226,7 @@ public:
 };
 ```
 
-*Dependency Inversion Principle (DIP):
+* Dependency Inversion Principle (DIP):
 OrdinaryCustomer class and Assistant class does not depend on each over their both depend on abstract class Order.
 
 ```cpp
